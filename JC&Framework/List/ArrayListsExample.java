@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.Scanner;
 
 /**
@@ -110,5 +111,13 @@ public class ArrayListsExample {
         sc.close();
 
         System.out.println("\n== End of Demo ==");
+        // --------------------------------------
+        // 14. Iterate using Iterator
+        // --------------------------------------
+        Iterator<Integer> iterator = list.iterator();
+        while (it.hasNext()) {
+            System.out.println("Iterating through list: " + iterator.next());
+            
+        }
     }
 }
